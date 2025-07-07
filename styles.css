@@ -1,0 +1,152 @@
+@font-face {
+    font-family: 'norsebold';
+    src: url('fonts/norse-bold-webfont.woff2') format('woff2'),
+         url('fonts/norse-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+:root {
+    --text-body-color: rgba(65,73,85,255);
+
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: rgba(249,250,251,255);
+}
+
+.form-content{
+    padding: 96px 0 48px 0;  
+}
+
+.forest-image{
+    height: 100vh;
+}
+
+.logo {
+    display: flex;
+    position: absolute;
+    top: 17%;
+    left: 0;
+    background-image: 
+    linear-gradient(
+      rgba(0, 0, 0, 0.5),
+      rgba(0, 0, 0, 0.5)
+    );
+    height: 140px;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+}
+
+.logo img{
+    height: 100%
+}
+
+.deco{
+    position:relative;
+}
+
+.logo h1{
+    font-family: 'norsebold', sans-serif;
+    font-size: 96px;
+    color: white;
+}
+
+div.header h2{
+    width: 75%;
+}
+
+.main{
+    display: flex;
+    /* gap: 48px; */
+}
+
+section.first{
+    margin-left: 48px;
+    margin-bottom: 32px;
+}
+
+section.second{
+    background-color: #fff;
+    padding: 20px 0 32px 48px;
+    box-shadow: 3px 2px 5px rgb(205, 206, 207);
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+section.second h2{
+    color: var(--text-body-color);
+    margin: 0
+}
+
+form{
+    display:flex;
+    gap: 48px;
+    margin: 0;
+}
+
+fieldset p{
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+    font-size: 10px;
+    letter-spacing: 1px;
+    color: var(--text-body-color);
+    font-weight: bold;
+    margin: 0;
+}
+
+fieldset{
+    border-style: none;
+    display:flex;
+    flex-direction: column;
+    gap: 16px;
+    margin: 0;
+    padding: 0;
+}
+
+input{
+    border: 1px solid rgb(199, 199, 199);
+    border-radius: 4px;
+}
+
+input:invalid{
+    border: 1px solid red;
+    border-radius: 4px;
+}
+
+input:focus{
+    outline: none;
+    border: 1px solid royalblue;
+    border-radius: 4px;
+    box-shadow: 3px 2px 5px rgb(205, 206, 207);
+}
+
+section.third{
+    margin:32px 0 0 48px;
+}
+
+section.third button{
+    padding: 8px 32px;
+    border-radius: 8px;
+    background: #596D48;
+    border: 1px solid #596D48;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+section.third a{
+    color: #596D48;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+section.third p{
+    margin-top: 32px;
+}

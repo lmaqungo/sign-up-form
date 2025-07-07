@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="main">
+        <div class="deco">
+            <img src="media/background-img.jpg" alt="background image" class="forest-image">
+            <div class="logo">
+                <img src="media/odin-lined.png" alt="TOP logo">
+                <h1>ODIN</h1>
+            </div>
+        </div>
+        <div class="form-content">
+            <section class="first">
+                <div class="header">
+                    <h2>This is not a real online service. You need to know something 
+                    like this in your life to help you realize your deepest dreams. 
+                    Sign up <em>now</em> to get started. 
+                    </h2>
+                    <h2>You <em>know</em> you want to</h2>
+                </div>
+            </section>
+            <section class="second">
+                <h2>Lets do this</h2>
+                <form action="">
+                    <fieldset>
+                        <p>
+                            <label for="first-name">FIRST NAME</label>
+                            <input type="text" id="first-name" required minlength="2" maxlength="21">
+                        </p>
+                        <p>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" required>
+                        </p>
+                        <p>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" required minlength="8" maxlength="12">
+                        </p>
+                    </fieldset>
+                    <fieldset>
+                        <p>
+                            <label for="last-name">LAST NAME</label>
+                            <input type="text" id="last-name" required minlength="2" maxlength="21">
+                        </p>
+                        <p>
+                            <label for="phone-number">PHONE NUMBER</label>
+                            <input type="text" id="phone-number" required pattern="(0\d{9})">
+                        </p>
+                        <p>
+                            <label for="password-confirmation">CONFIRM PASSWORD</label>
+                            <input type="password" id="password-confirmation" required minlength="8" maxlength="12">
+                        </p>
+                    </fieldset>
+                </form>
+
+            </section>
+            <section class="third">
+                <button>Create Account</button>
+                <p>Already have an account? <a href="#">Log in</a></p>
+            </section>
+        </div>
+    </div>
+</body>
+</html>
